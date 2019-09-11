@@ -2,8 +2,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: #f2f2f2;
+  background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #4286f4, #373B44); 
 }
+
 
 .movie-card {
   background-color: #fff;
@@ -14,6 +17,11 @@ body {
   cursor: pointer;
   position: relative;
   margin: 1rem auto;
+  width:75%;
+  background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #4286f4, #373B44); 
+color:white
 }
 
 .movie-director {
@@ -22,7 +30,9 @@ body {
 }
 
 .saved-list {
-  background-color: #fff;
+  background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #4286f4, #373B44); 
   border: 0;
   box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12),
     0 2px 4px rgba(0, 0, 0, 0.24);
@@ -34,6 +44,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color:white
 }
 
 .saved-list h3 {
@@ -59,7 +70,10 @@ body {
   right: 25px;
   border: 1px solid grey;
   padding: 5px 10px;
-  background-color: lightseagreen;
+  background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #4286f4, #373B44);
+color:white
 }
 .save-button:hover {
   background-color: green;
@@ -68,5 +82,13 @@ body {
 
 .home-button {
   padding: 5px 10px;
-  background-color: lightskyblue;
+  background: #373B44;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #4286f4, #373B44);
+  color:white
+}
+
+.movie-warning {
+  color:orange;
+  text-align: center;
 }
